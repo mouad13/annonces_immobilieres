@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('accueil');
 });
+
+Route::get('/inscription', function () {
+    return view('inscription');
+});
+
